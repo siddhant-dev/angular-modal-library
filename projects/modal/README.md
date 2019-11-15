@@ -1,4 +1,4 @@
-# Project name
+# Angular modal Library
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/siddhant-dev/angular-modal-library)
@@ -83,7 +83,7 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 
 Thanks to the following people who have contributed to this project:
 
-* [@scottydocs](https://github.com//siddhant-dev) 📖
+* [@siddhant-dev](https://github.com//siddhant-dev) 📖
 <!-- * [@cainwatson](https://github.com/cainwatson) 🐛
 * [@calchuchesta](https://github.com/calchuchesta) 🐛 -->
 
