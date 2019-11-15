@@ -83,11 +83,11 @@ Alternatively see the GitHub documentation on [creating a pull request](https://
 
 Thanks to the following people who have contributed to this project:
 
-* [@scottydocs](https://github.com//siddhant-dev) 📖
+* [@siddhant-dev](https://github.com//siddhant-dev) 📖
 <!-- * [@cainwatson](https://github.com/cainwatson) 🐛
 * [@calchuchesta](https://github.com/calchuchesta) 🐛 -->
 
-You might want to consider using something like the [All Contributors](https://github.com/all-contributors/all-contributors) specification and its [emoji key](https://allcontributors.org/docs/en/emoji-key).
+<!-- You might want to consider using something like the [All Contributors](https://github.com/all-contributors/all-contributors) specification and its [emoji key](https://allcontributors.org/docs/en/emoji-key). -->
 
 ## Contact
 
@@ -97,3 +97,7 @@ If you want to contact me you can reach me at me@siddhantjaiswal.dev.
 <!--- If you're not sure which open license to use see https://choosealicense.com/--->
 
 This project uses the following license: [ MIT ](https://github.com/siddhant-dev/angular-modal-library/blob/master/LICENSE).
+
+## KeyWords 
+
+#angular #Modal
