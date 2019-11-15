@@ -5,7 +5,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/siddhant-dev/angular-modal-library)
 ![GitHub stars](https://img.shields.io/github/stars/siddhant-dev/angular-modal-library?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/siddhant-dev/angular-modal-library?style=social)
-![Twitter Follow](https://img.shields.io/twitter/follow/IamSidd_J?style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/IamSidd_J?label=Follow?style=social)
 
 Project name is a `angular-modal-library` that allows `inset a modal on any angular component` to do `various task`.
 
