@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # Angular Modal Library
-=======
-# Angular modal Library
->>>>>>> dda470ae5a5d0d0f19edb3540965081f8473afdb
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/siddhant-dev/angular-modal-library)
