@@ -2,8 +2,13 @@ import { Component, ViewEncapsulation, ElementRef, Input, OnInit, OnDestroy } fr
 import { ModalService } from './modal.service';
 
 @Component({
-  selector: 'pm-modal',
-  templateUrl: './modal.component.html',
+  selector: 'ng-modal',
+  template: `<div class="modal">
+    <div class="modal-body">
+        <ng-content></ng-content>
+    </div>
+</div>
+<div class="modal-background"></div>`,
   styleUrls: ['./modal.component.css'],
   encapsulation: ViewEncapsulation.None
 })
@@ -54,4 +59,4 @@ export class ModalComponent implements OnInit {
       this.element.style.display = 'none';
       document.body.classList.remove('modal-open');
   }
-} 
+}

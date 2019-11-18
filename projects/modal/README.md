@@ -1,4 +1,4 @@
-# Project name
+# Angular Modal Library
 
 <!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/siddhant-dev/angular-modal-library)
@@ -45,12 +45,12 @@ ModalService provides two functions opne(id) openeing and close(id) closing make
 in the html create a button and on click it should call the open function. 
 Also create the modal as shown in the example below: 
 
-<pm-modal id="my-modal">
+<ng-modal id="my-modal">
   <div>
     HI
   </div>
   <button (click)="closeModal('my-modal')">Close </button>
-</pm-modal> 
+</ng-modal> 
 
 Close button will be inside the modal to close it. 
 
@@ -62,7 +62,7 @@ The classes used in Modal library for styling are as follow:
 .modal-background
 .modal-open
 
-It is also responsive for mobile devices. 
+It is also responsive for mobile devices with an slide down animation. 
 
 to custom styling you will need to use ElementRef. (Google it and experiment with it)
 

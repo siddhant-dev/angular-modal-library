@@ -1,11 +1,11 @@
 /* MODAL STYLES
 -------------------------------*/
-pm-modal {
+ng-modal {
     /* modals are hidden by default */
   
     display: none;
   }
-  pm-modal .modal {
+  ng-modal .modal {
     /* modal container fixed across whole screen */
   
     position: fixed;
@@ -13,7 +13,7 @@ pm-modal {
     right: 0;
     bottom: 0;
     left: 0;
-    
+    animation: animatetop 0.9s ;
     /* z-index must be higher than .app-modal-background */
   
     z-index: 1000;
@@ -21,15 +21,15 @@ pm-modal {
   
     overflow: auto;
   }
-  pm-modal .modal .modal-body {
+  ng-modal .modal .modal-body {
     padding: 20px;
     background: #fff;
     border-radius: 5px;
     /* margin exposes part of the modal background */
-  
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     margin: 40px;
   }
-  pm-modal .modal-background {
+  ng-modal .modal-background {
     /* modal background fixed across whole screen */
   
     position: fixed;
@@ -53,7 +53,7 @@ pm-modal {
   
 
 @media screen and (min-width: 1025px){
-    pm-modal .modal {
+    ng-modal .modal {
         /* modal container fixed across whole screen */
       
         position: fixed;
@@ -64,4 +64,14 @@ pm-modal {
        
         /* z-index must be higher than .app-modal-background */
       }
+}
+
+@keyframes animatetop{
+    from {
+    top: -300px;
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
 }
