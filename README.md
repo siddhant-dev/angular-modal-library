@@ -1,27 +1,103 @@
-# Modal
+# Angular Modal Library
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
+<!--- These are examples. See https://shields.io for others or to customize this set of shields. You might want to include dependencies, project status and licence info here --->
+![GitHub repo size](https://img.shields.io/github/repo-size/siddhant-dev/angular-modal-library)
+![GitHub contributors](https://img.shields.io/github/contributors/siddhant-dev/angular-modal-library)
+![GitHub stars](https://img.shields.io/github/stars/siddhant-dev/angular-modal-library?style=social)
+![GitHub forks](https://img.shields.io/github/forks/siddhant-dev/angular-modal-library?style=social)
+![Twitter Follow](https://img.shields.io/twitter/follow/IamSidd_J?style=social)
 
-## Development server
+Project name is a `angular-modal-library` that allows `inset a modal on any angular component` to do `various task`.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+This popup will appear after calling a function with Id of the modal as parameter. Very easy to use and you can customise the functionlity inside the modal
 
-## Code scaffolding
+## Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Before you begin, ensure you have met the following requirements:
+<!--- These are just example requirements. Add, duplicate or remove as required --->
+* You have installed the latest version of `@angular 8+`
+* You have a `Windows/Linux/Mac` machine. 
+<!-- * You have read `<guide/link/documentation_related_to_project>`. -->
 
-## Build
+## Installing angular-modal-library
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+To install angular-modal-library, follow these steps:
 
-## Running unit tests
+Linux and macOS:
+```
+npm install angular-modal-library
+```
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Windows:
+```
+npm install angular-modal-library
+```
+## Using angular-modal-library
 
-## Running end-to-end tests
+To use angular-modal-library, follow these steps:
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+```
+import ModalModule from angular-modal-library in your app.module.ts file
+import ModalService from angular-modal-library in your <your-component>.componenet.ts file 
 
-## Further help
+ModalService provides two functions opne(id) openeing and close(id) closing make sure pass the modal id as the parameter in both the functions
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+in the html create a button and on click it should call the open function. 
+Also create the modal as shown in the example below: 
+
+<ng-modal id="my-modal">
+  <div>
+    HI
+  </div>
+  <button (click)="closeModal('my-modal')">Close </button>
+</ng-modal> 
+
+Close button will be inside the modal to close it. 
+
+```
+The classes used in Modal library for styling are as follow: 
+
+.modal
+.modal-body
+.modal-background
+.modal-open
+
+It is also responsive for mobile devices with an slide down animation. 
+
+to custom styling you will need to use ElementRef. (Google it and experiment with it)
+
+
+## Contributing to angular-modal-library
+<!--- If your README is long or you have some specific process or steps you want contributors to follow, consider creating a separate CONTRIBUTING.md file--->
+To contribute to angular-modal-library, follow these steps:
+
+1. Fork this repository.
+2. Create a branch: `git checkout -b <branch_name>`.
+3. Make your changes and commit them: `git commit -m '<commit_message>'`
+4. Push to the original branch: `git push origin <project_name>/<location>`
+5. Create the pull request.
+
+Alternatively see the GitHub documentation on [creating a pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
+
+## Contributors
+
+Thanks to the following people who have contributed to this project:
+
+* [@siddhant-dev](https://github.com//siddhant-dev) 📖
+<!-- * [@cainwatson](https://github.com/cainwatson) 🐛
+* [@calchuchesta](https://github.com/calchuchesta) 🐛 -->
+
+<!-- You might want to consider using something like the [All Contributors](https://github.com/all-contributors/all-contributors) specification and its [emoji key](https://allcontributors.org/docs/en/emoji-key). -->
+
+## Contact
+
+If you want to contact me you can reach me at me@siddhantjaiswal.dev.
+
+## License
+<!--- If you're not sure which open license to use see https://choosealicense.com/--->
+
+This project uses the following license: [ MIT ](https://github.com/siddhant-dev/angular-modal-library/blob/master/LICENSE).
+
+## KeyWords 
+
+#angular #Modal
