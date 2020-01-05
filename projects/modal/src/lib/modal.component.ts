@@ -2,7 +2,8 @@ import { Component, ViewEncapsulation, ElementRef, Input, OnInit, OnDestroy } fr
 import { ModalService } from './modal.service';
 
 @Component({
-  selector: 'ng-modal',
+  // tslint:disable-next-line: component-selector
+  selector: 'sj-modal',
   template: `<div class="modal">
     <div class="modal-body">
         <ng-content></ng-content>

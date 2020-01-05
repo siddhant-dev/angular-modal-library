@@ -45,12 +45,12 @@ ModalService provides two functions opne(id) openeing and close(id) closing make
 in the html create a button and on click it should call the open function. 
 Also create the modal as shown in the example below: 
 
-<ng-modal id="my-modal">
+<sj-modal id="my-modal">
   <div>
     HI
   </div>
   <button (click)="closeModal('my-modal')">Close </button>
-</ng-modal> 
+</sj-modal> 
 
 Close button will be inside the modal to close it. 
 
